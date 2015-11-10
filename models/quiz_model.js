@@ -6,40 +6,34 @@ function Quiz() {
 
   this.q.push(
 
-    { pregunta: '¿Cuantos anillos ha ganado Michael Jordan?',
+    { pregunta: '¿Cual es la capital de Butan',
       respuesta: function(x) {
-        return (/^\s*seis\s*$/i).exec(x);
+        return (/^\s*Timbu\s*$/i).exec(x);
       }
     },
 
     {
-      pregunta: '¿Quien es el entrenador con más anillos de la NBA?',
+      pregunta: '¿Cual es el gentilicio de la gente de Chad(pais)?',
       respuesta: function(x) {
-        return (/\s*phill jackson\s*$/i).exec(x);
+        return (/\s*Chadiense\s*$/i).exec(x);
       }
     },
 
-    { pregunta: '¿Cuantos titulos ganó el Real Madrid Baloncesto en la pasada temporada?',
+    { pregunta: '¿Cual es la principal religion de Turkmenistan?',
       respuesta: function(x) {
-        return (/\s*cinco\s*$/i).exec(x);
+        return (/\s*Musulman\s*$/i).exec(x);
       }
     },
 
-    { pregunta: '¿Cúal es la nacionalidad de Milos Teodosic?',
+    { pregunta: '¿Cual es la nacionalidad de Albert Einsten?',
       respuesta: function(x) {
-        return (/\s*serbio\s*$/i).exec(x);
+        return (/\s*Aleman\s*$/i).exec(x);
       }
     },
     
-    { pregunta: '¿En qué año murió Drazen Petrovic?',
+    { pregunta: '¿Quien era Alan Turing?',
       respuesta: function(x) {
-        return (/\s*1993\s*$/i).exec(x);
-      }
-    },
-    
-    { pregunta: '¿Quien fue el mejor amigo de Petrovic en sus comienzos en la NBA?',
-      respuesta: function(x) {
-        return (/\s*vlade divac\s*$/i).exec(x);
+        return (/\s*Informatico\s*$/i).exec(x);
       }
     }
 
