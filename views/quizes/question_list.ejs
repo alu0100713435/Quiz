@@ -1,8 +1,8 @@
 <h2>Listado de preguntas:</h2>
 <div id="list">
-<ul id="lista">
-<% for(var i=0; i<prg.length; i++) {%>
-   <li><%- "Pregunta " + (i+1) + ": " + link_to(prg[i], 'question_list/'+(i+1)) %></li>
-<% } %>
-</ul>
+    <ul id="lista">
+    <% for(var i=0; i<prg.length; i++) {%>
+       <li><%- "Pregunta " + (i+1) + ": " + link_to(prg[i], 'question_list/'+(i+1)) %></li>
+    <% } %>
+    </ul>
 </div> 
