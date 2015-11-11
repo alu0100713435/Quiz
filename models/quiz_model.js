@@ -6,7 +6,7 @@ function Quiz() {
 
   this.q.push(
 
-    { pregunta: '¿Cual es la capital de Butan',
+    { pregunta: '¿Cual es la capital de Butan?,
       respuesta: function(x) {
         return (/^\s*Timbu\s*$/i).exec(x);
       }
@@ -33,7 +33,7 @@ function Quiz() {
     
     { pregunta: '¿Quien era Alan Turing?',
       respuesta: function(x) {
-        return (/\s*Informatico\s*$/i).exec(x);
+        return (/\s*Alguien\s*$/i).exec(x);
       }
     }
 
