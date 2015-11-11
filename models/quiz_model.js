@@ -6,7 +6,7 @@ function Quiz() {
 
   this.q.push(
 
-    { pregunta: '¿Cual es la capital de Butan?,
+    { pregunta: '¿Cual es la capital de Butan?',
       respuesta: function(x) {
         return (/^\s*Timbu\s*$/i).exec(x);
       }
