@@ -1,7 +1,7 @@
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-  background-image: url(images/Quiz_Image.jpg);
+  background-image: url(../images/Quiz_Image.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -9,7 +9,7 @@ body {
   background-color: #0B615E;
 }
 a {
-  color: #00B7FF;
+  color: #2EFEF7;
 }
 h1 {
   font-size: 200% ;
